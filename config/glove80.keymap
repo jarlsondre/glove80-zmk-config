@@ -309,7 +309,7 @@
                &trans         &none           &none           &none            &none   &kp HOME                                                  &kp CARET    &kp AMPS         &none         &none   &kp PIPE   &none
                &trans         &none           &none    &kp UP_ARROW            &none    &kp END                                                     &kp LT      &kp GT      &kp LBKT      &kp RBKT  &kp QMARK   &none
                &trans         &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP                                                   &kp PLUS   &kp EQUAL      &kp LPAR      &kp RPAR  &kp COLON   &none
-               &trans     &kp K_APP           &none           &none          &kp F12  &kp PG_DN  &trans  &trans   &to 0  &trans  &trans  &trans   &kp FSLH    &kp BSHL     &kp LBRC      &kp RBRC   &kp SEMI  &trans
+               &trans     &kp K_APP           &none           &none          &kp F12  &kp PG_DN  &trans  &trans   &to 0  &trans  &trans  &trans   &kp FSLH    &kp BSLH     &kp LBRC      &kp RBRC   &kp SEMI  &trans
  &magic LAYER_Magic 0      &kp CAPS         &kp INS         &kp F11          &kp F12             &trans  &trans  &trans  &trans  &trans  &trans                  &none         &none         &none      &none  &trans
             >;
         };
