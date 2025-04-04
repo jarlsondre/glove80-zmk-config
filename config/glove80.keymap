@@ -89,15 +89,15 @@
       label = "LSQUARE_BRACKET";
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&kp LALT &kp N8>;
+      bindings = <&mo LALT &kp N8 &mc LALT>;
     };
 
     rsquare: bracket_macro_right {
       label = "RSQUARE_BRACKET";
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&kp LALT &kp N9>;
-    };
+      bindings = <&mo LALT &kp N9 &mc LALT>;
+    };  
   };
 
   keymap {
@@ -121,7 +121,7 @@
         &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp RIGHT           &kp BSPC  &layer_td  &kp RGUI   &kp RALT  &kp RET   &kp SPACE           &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &kp PG_DN
       >;
     };
-
+)=)=++-+-+-88998989898989898
     lower_layer {
       bindings = <
         &kp C_BRI_DN      &kp C_BRI_UP        &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                                                    &kp C_MUTE   &kp C_VOL_DN      &kp C_VOL_UP  &none           &kp PAUSE_BREAK
