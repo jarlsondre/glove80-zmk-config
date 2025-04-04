@@ -89,14 +89,14 @@
       label = "LSQUARE_BRACKET";
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&mo LALT &kp N8 &mc LALT>;
+      bindings = <&mo LALT &kp N8>;
     };
 
     rsquare: bracket_macro_right {
       label = "RSQUARE_BRACKET";
       compatible = "zmk,behavior-macro";
       #binding-cells = <0>;
-      bindings = <&mo LALT &kp N9 &mc LALT>;
+      bindings = <&mo LALT &kp N9>;
     };  
   };
 
